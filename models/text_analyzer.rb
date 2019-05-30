@@ -40,8 +40,4 @@ class TextAnalyzer
 
     biggest
   end
-
-  def most_used_letter_count
-    text.scan(/[most_used_letter]/).count
-  end
 end
